@@ -1,0 +1,77 @@
+
+/* FORMULARIO */
+#formulario {
+    max-width: 600px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    background: #5adffd;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 80, 120, 0.20);
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ETIQUETAS */
+#formulario label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    color: #173b56;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* CAMPOS */
+#formulario input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d4e7ed;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #173b56;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* CUANDO SE SELECCIONA EL CAMPO */
+#formulario input:focus {
+    border-color: #087e9b;
+    box-shadow: 0 0 0 3px rgba(8, 126, 155, 0.15);
+}
+
+/* EFECTO AL PASAR EL CURSOR */
+#formulario input:hover {
+    border-color: #19b5bd;
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 600px) {
+
+    #formulario {
+        width: 94%;
+        padding: 20px 16px;
+        margin: 25px auto;
+        border-radius: 15px;
+    }
+
+    #formulario label {
+        font-size: 15px;
+        margin-top: 13px;
+    }
+
+    #formulario input {
+        padding: 13px;
+        font-size: 16px;
+    }
+}
+
+
+
+
